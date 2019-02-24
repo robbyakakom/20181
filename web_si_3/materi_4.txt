@@ -1,0 +1,54 @@
+control program
+----------------
+kondisi/percabangan/pemilihan/conditional/
+selection
+
+bentuk umum perintah if
+if(kondisi){
+	 pernyataan program 
+}
+
+if(kondisi){
+	pernyataan jika benar
+}else{
+	pernyataan jika salah
+}
+
+if(kondisi 1){
+	pernyataan jika benar 1
+}else if(kondisi 2){
+	pernyataan jika benar 2
+}else{
+	pernyataan lain
+}
+
+bentuk umum
+switch (variabel)
+{
+	case nilai_1 :
+		pernyataan_program_1;
+		break;
+	case nilai_2 :
+		pernyataan_program_2;
+		break;
+		
+	..... case lainnya .....
+	
+	default :
+		pernyataan_program_default;
+		break ;
+}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+loop/iterasi/perulangan

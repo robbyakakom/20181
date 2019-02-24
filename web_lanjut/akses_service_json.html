@@ -1,0 +1,14 @@
+<script>
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			var mhsJson = this.responseText ;
+			var objMhs = JSON.parse(mhsJson); 
+			for(data in objMhs){
+				document.write(data + ' : ' + objMhs[data] + '<br/>') ;
+			}
+		}
+	};
+	xhttp.open("GET", "service_json.php?nim=1001", true);
+	xhttp.send();
+</script>

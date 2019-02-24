@@ -1,0 +1,15 @@
+fungsi (function)
+=================
+- kumpulan perintah yang diberi nama, dapat dilewatkan parameter(variabel), dapat menghasilkan keluaran nilai (output), yang penggunaannya dipanggil di program utama / luar
+
+jenis fungsi
+- built in / internal / bawaaan
+	(fungsi yang sudah disediak, hanya cukup dipanggil)
+	memanggil fungsi
+		$variabel = namafungsi(parameter,...,....)
+
+- user defined / external / buatan
+	function nama_fungsi(parameter, ... ,parameter){
+		...program...
+		return 
+	}

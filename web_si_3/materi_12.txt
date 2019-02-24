@@ -1,0 +1,23 @@
+session & cookies
+------------------
+php terdapat menyimpan data (variabel) sementara selama program berjalan
+- session : variabel sementara di server
+- cookies : variabel sementara di client (browser)
+
+perintah / syntak
+session :
+//membuka sesi, script menggunakan sesi
+session_start() ;
+
+//mengisi nilai sesi
+$_SESSION['namaSesi'] = "nilai" ;
+
+//memusnahkan sesi
+session_destroy() ;
+
+cookies :
+//mendefinisikan nilai cookies
+setcookie("namaCookie","nilai")
+
+//menggunakan cookies
+echo $_COOKIE["namaCookie"] ;
