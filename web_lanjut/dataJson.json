@@ -1,0 +1,15 @@
+{
+	"mahasiswa" :
+		[	
+			{
+				"nim" : "001",
+				"nama" : "Budi",
+				"jurusan" : "SI"
+			},
+			{
+				"nim" : "002",
+				"nama" : "Banu",
+				"jurusan" : "TI"
+			}
+		]
+}

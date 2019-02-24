@@ -1,0 +1,14 @@
+<script>
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			var mhsXml = this.responseXML ;
+			document.write('NIM : ' + mhsXml.getElementsByTagName("nim")[0].childNodes[0].nodeValue + "<br/>") ;
+			document.write('Nama : ' + mhsXml.getElementsByTagName("nama")[0].childNodes[0].nodeValue + "<br/>") ;
+			document.write('Alamat : ' + mhsXml.getElementsByTagName("alamat")[0].childNodes[0].nodeValue + "<br/>") ;
+			document.write('Foto : ' + mhsXml.getElementsByTagName("foto")[0].childNodes[0].nodeValue + "<br/>") ;
+		}
+	};
+	xhttp.open("GET", "service_xml.php?nim=1001", true);
+	xhttp.send();
+</script>

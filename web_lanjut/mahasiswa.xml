@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="mahasiswa.xslt" ?>
+<akademik>
+	<mahasiswa>
+		<nim>00100</nim>
+		<nama>Budi Firmansyah</nama>
+		<jurusan>Sistem Informasi</jurusan>
+		<alamat>Yogyakarta</alamat>
+	</mahasiswa>	
+	<mahasiswa>
+		<nim>00101</nim>
+		<nama>Budi Budiman</nama>
+		<jurusan>Sistem Informasi</jurusan>
+		<alamat>Jakarta</alamat>
+	</mahasiswa>
+</akademik>

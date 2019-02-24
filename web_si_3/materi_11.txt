@@ -1,0 +1,70 @@
+Fitur aplikasi database
+-----------------------
+Create : insert
+Read : select
+Update : update
+Delete : delete
+
+bahasa database
+---------------
+- DML : memanipulasi / mengolah isi database : select, insert, update, delete
+- DDL : definisi database : create, alter, drop
+
+langkah / algortima dlm sebuah file php
+---------------------------------------
+- membuat koneksi : mysqli_connect()
+- menyiapkan SQL 
+- menjalankan query : mysqli_query() ==> jika select maka akan resource 
+- jika select maka dilakukan fetch resource menjadi array : mysqli_fetch_assoc / mysqli_fetch_array
+- menampilkan array hasil fetch
+- menutup koneksi
+
+transaksi / master detail
+-------------------------
+
+
+
+
+
+tabel pembeli
+id pembeli
+nama
+alamat
+
+
+
+tabel barang_beli
+id barang
+id pembeli
+qty
+harga
+total
+
+Input Data Kelas
+----------------
+Nama Kelas : T.3.1
+Nama Matakuliah : Pengembangan Aplikasi Web
+Jadwal : Senin, 13.00
+
+Peserta Kelas
+No	NIM		Nama	Angkatan
+1 	009		Budi	2016
+2 	010		Badu	2016
+3 	011		Banu	2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
