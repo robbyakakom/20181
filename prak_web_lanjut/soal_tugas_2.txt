@@ -1,7 +1,0 @@
-TUGAS PERTEMUAN 2
-=================
-- dikerjakan kelompok maksimal 3 mahasiswa
-- silahkan buat minimal 2 halaman web saling terhubung link dengan menggunakan bootstraps
-- coba masukkan unsur class bootraps seperti image, nav, table, dll
--
-Hasil dikumpulkan berupa listing, screen shoot hasil, jelaskan pembuatan dan penempatan bootstraps

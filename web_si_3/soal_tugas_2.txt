@@ -1,9 +1,0 @@
-TUGAS RUMAH
------------
-- dikerjakan kelompok (maksimal 3 mahasiswa)
-- minggu depan hasil di presentasikan / demokan
-
-- buatlah sebuah program menghitung bangun ruang (2 dimensi atau 3 dimensi)
-	mulai dari form input kemudian menampilkan hasil hitung seperti luas, keliling, volume dan lain-lain tergantung jenis bangun ruangnya
-
-- hasil berupa folder berisi file di zip/rar, upload di robbycokro.akakom.ac.id

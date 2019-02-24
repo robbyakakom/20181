@@ -1,6 +1,0 @@
-Tugas 1:
---------
-- Buatlah minimal 3 halaman web yang berisi tentang anggota kelompok
-- Buat dengan HTML5 dan CSS3
-- Hasil kumpulkan berupa folder yang berisi file-file di zip/rar
-
